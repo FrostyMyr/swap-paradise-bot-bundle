@@ -15,13 +15,13 @@ const reddit = new snoowrap({
 // List of subreddits to fetch posts from
 const subreddits = {
   AnimePossession:
-    "https://discord.com/api/webhooks/1203504993513250837/cBOBKdSeU1-NYiuaRbTs1mufTeSxarRtFxybMZItMB4UE_LMuuvnLhMUt_CmEP9KMbO0",
+    "",
   bodyswap:
-    "https://discord.com/api/webhooks/1203505138141237348/_ciIQURwNH94A74pCZBwQa1PzprNrcErzNpEMSqo3J92wABjelNMiD95m2unrz0JXPdE",
+    "",
   BodySwapRP:
-    "https://discord.com/api/webhooks/1203505285973549116/HKVw-IEQvDsmgoEHoVQvdJ0RBHcJ6z4TGHg_KQFgciTh51DoiOHa4krFwHjURNAuSG6U",
+    "",
   AnimalBodySwap:
-    "https://discord.com/api/webhooks/1203505398645129276/iNqhq8R1ffYVIrYDyzB8VD23Trr8zQ6-sqpTuhpPlfnWl8tM_GHQH9zBt1IcSoBMYcSM",
+    "",
 };
 
 // Map to store processed post IDs and associated timestamps
