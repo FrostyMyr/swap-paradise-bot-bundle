@@ -4,7 +4,7 @@ const proxy = require("../proxy.js");
 module.exports = (client) => {
   client.on("guildMemberUpdate", async (oldMember, newMember) => {
     const verifiedRole = newMember.guild.roles.cache.find(
-      (role) => role.name === "verified",
+      (role) => role.name.toLowerCase() === "verified",
     );
 
     if (!verifiedRole) {
